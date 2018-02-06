@@ -16,10 +16,10 @@ dakika = zaman[4]
 saniye = zaman[5]
 
 def tarih():
-    print("""
+    print(("""
     tarih: {}/{}/{}
     saat : {}:{}:{}
-    """).format(gun, ay, yil, saat, dakika, saniye)
+    """).format(gun, ay, yil, saat, dakika, saniye))
 
 if __name__ == '__main__':
     tarih()
