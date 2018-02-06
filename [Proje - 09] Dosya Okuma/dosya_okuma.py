@@ -19,7 +19,7 @@ notlar = {
 }
 
 for i in range(0, len(notlar)):
-    p = notlar.items()[i]
+    p = notlar.items()
     dosya.write(str(p))
     dosya.write('\n')
 
@@ -30,6 +30,6 @@ dosya.close()
 # Dosyayı okumak için tekrar açtık
 dosya = open('notlar.text', 'r')
 for i in dosya.readlines():
-    print i
+    print (i)
 
 dosya.close()
